@@ -1,0 +1,168 @@
+body {
+  /* top: 0;
+  left: 0; */
+  height: 100%;
+  width: 100%;
+  background:linear-gradient(0deg, rgba(173,216,230 ,0.3 ),rgba(173,216,230 ,0.3)), url("codingstuffzz.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#survey-form {
+  background-color: #331343;
+  border-radius: 4px;
+  opacity: 0.7;
+  text-align: center;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 50%;
+}
+
+form > #name-label {
+  margin-bottom: 0.25em;
+}
+
+form > #name {
+  margin-bottom: 1em;
+}
+
+form > #email-label {
+  margin-bottom: 0.25em;
+}
+
+form > #email {
+  margin-bottom: 1em;
+}
+
+form > #number-label {
+  margin-bottom: 0.25em;
+}
+
+form > #number {
+  margin-bottom: 1em;
+}
+
+#title {
+  margin-bottom: 1%;
+  font-size: 26px;
+  margin-top: 1.25em;
+}
+
+#description {
+  margin-top: 6px;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+#name, #email, #number {
+  /* width: calc(100% - (80px / 2)); */
+  width: 99%;
+}
+
+#dropdown, #features {
+  width: 100%;
+  font-size: 14px;
+}
+
+#survey-form > label {
+  float: left;
+}
+
+#survey-form > input {
+  float: left;
+}
+
+.dropdown {
+  margin-top: 1em;
+}
+
+.radiobuttons {
+  margin-top: 1em;
+}
+
+.features {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
+
+.checkboxes {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+  width: 100%;
+}
+
+label > .improved {
+  float: left;
+  display: block;
+}
+
+/* #checkboxes {
+  margin-bottom: 0.em;
+} */
+
+form > .radioo {
+  display: block;
+  width: 100%;
+  float: left;
+}
+
+form > .radioo > .reccomend {
+  float: left;
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
+
+.textdiv {
+  text-align: left;
+  display: block;
+}
+
+textarea {
+  resize: none;
+  width: 99%;
+  height: 50px;
+  font-size: 14px;
+}
+
+.textarea {
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+  font-size: 16px;
+}
+
+#submit {
+  width: 100%;
+  height: 32px;
+  margin-top: 1.5em;
+  background-color: darkorange;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  border-radius: 3px;
+}
+
+input[type="text"], [type="email"], [type="number"], [type="radio"] {
+    font-size: 14px;
+}
+
